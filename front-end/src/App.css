@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.line {
+  line-height: 2;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forms {
+  justify-content: center;
+  text-align: center;
+  padding: '20px';
+  align-items: center;
+  min-height: auto;
+  background-color: #0c3359;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 black !important;
+  width: 300px;
+  height: 350px;
+  transition: 0.3s;
+  opacity: 100;
+  box-shadow: 0.56s ease-in-out;
+  background-color: whitesmoke;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 10px 14px 0 black !important;
+  cursor: pointer !important;
+}
+
+.names {
+  outline: auto;
+}
+
+.span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.name-left {
+  text-align: left;
+}
+
+.name-right {
+  text-align: right;
+}
+
+.buttons {
+  background-color: #282c34;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+.buttons:hover {
+  cursor: pointer !important;
+  background-color: rgba(0, 0, 0, 0.861) !important;
+}
+
+.App-header {
+  background-color: rgb(221, 208, 200);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  margin: 0;
+}
+
+.formatted-paragraph {
+  text-align: justify;
+  text-indent: 1em;
+  line-height: 1.5;
+  margin: 10px;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Dropdown box */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  background-color: rgb(221, 208, 200);
+  /* min-width: 100%; */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.877);
+  z-index: 1;
+}
+
+/* Show dropdown content when the dropdown is clicked */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the dropdown items */
+.dropdown-content span {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  font-size:medium;
+  font-style: italic;
+}
+
+/* Add styles for when hovering over dropdown items if needed */
+.dropdown-content span:hover {
+  /* background-color: #f1f1f1; */
+  cursor: pointer;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.877);
+}
